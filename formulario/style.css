@@ -1,0 +1,37 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: left;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2d4d83;
+    font-size: 20px;
+    
+}
+
+.container {
+    width: 400px;
+    padding: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.titulo {
+    text-align: center;
+}
+
+
+
+
+
