@@ -10,27 +10,29 @@
     <section class="container">
         <h1 class='titulo'>Formulário de cadastro</h1>
         <lu class="texto">
-            <li>Nenhum campo pode estar vazio</li>
-            <li>Usuário só poderá conter letras e/ou números</li>
-            <li>Usuário deverá ter entre 3 e 12  caracteres</li>
-            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+            <li>Nenhum campo pode estar vazio.</li>
+            <li>Usuário só poderá conter letras e/ou números.</li>
+            <li>Usuário deverá ter entre 3 e 12  caracteres.</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres.</li>
         </lu>
 
         <form action="/" method="POST" class="formulario">
-            <label>Nome:</label>
-            <input type="text" class="nome">
-            <label>Sobrenome:</label>
-            <input type="text" class="sobrenome">
-            <label>CPF:</label>
-            <input type="text" class="cpf">
-            <label>Usuário:</label>
-            <input type="text" class="usuario">
-            <label>Senha:</label>
-            <input type="text" class="senha">
-            <label>Repetir Senha:</label>
-            <input type="text" class="senha">
+            <label>Nome</label>
+            <input type="text" class="nome validar">
+            <label>Sobrenome</label>
+            <input type="text" class="sobrenome validar">
+            <label>CPF</label>
+            <input type="text" class="cpf validar">
+            <label>Usuário</label>
+            <input type="text" class="usuario validar">
+            <label>Senha</label>
+            <input type="password" class="senha validar">
+            <label>Repetir Senha</label>
+            <input type="password" class="repetir-senha validar">
+            <button type="submit" class="enviar">Enviar</button>
 
         </form>
+        <script src="validacpf.js"></script>
         <script src="main.js"></script>
     </section>
 </body>
