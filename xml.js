@@ -7,10 +7,7 @@ const request = obj => {
         if(xhr.status >= 200 && xhr.status < 300) {
             obj.success(xhr.responseText);
         } else {
-            obj.error({
-                code: xhr.status,
-                msg: xhr.statusText,
-            });
+            obj.error(xhr.statusText);
         }
 
     });
